@@ -1,0 +1,27 @@
+.landingMedia{
+    position: fixed;
+    top: 60px; 
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: blue;
+}
+
+.landing-video {
+    position: relative;
+    width: 100%; /* Full width of the parent */
+    height: auto; /* Full height of the viewport */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black; /* Optional: Background color to show during loading */
+    overflow: hidden; /* Hide any overflow */
+}
+
+.landing-video video {
+    width: auto;
+    height: 100%; /* Full height of the container */
+    max-height: 100%; /* Ensure video doesn't exceed container height */
+    max-width: 100%; /* Ensure video doesn't exceed container width */
+    object-fit: contain; /* Maintain aspect ratio and contain within the container */
+}

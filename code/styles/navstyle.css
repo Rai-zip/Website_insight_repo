@@ -151,10 +151,6 @@ body{
 
 @media screen and (max-width: 800px) {
 
-    .main-logo{
-        max-width: 10vh;
-        max-height: auto;
-    } 
 
     .menu-btn{
         display: block;
@@ -166,7 +162,7 @@ body{
 
     .links{
         justify-content: flex-end;
-        min-width: 1vh;
+        min-width: 2vh;
     }
 
 }

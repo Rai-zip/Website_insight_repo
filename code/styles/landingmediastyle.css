@@ -4,7 +4,6 @@
 }
 
 .video-bg {
-    padding-top: 60px;
     position: relative;
     height: 100vh;
     width: 100%;
@@ -17,7 +16,7 @@
 
 .video-thatplaysin-back {
     width: 100%; /* Set the video width to 100% */
-    height: 100%; /* Set the video height to 100% */
+    height: 100vh; /* Set the video height to 100% */
     object-fit: cover; /* Adjust the object-fit property based on your preference */
 }
 
@@ -32,8 +31,14 @@
     font-family: 'baron';
     font-weight: 500;
     color: #dacba7;
-    font-size: 70px;
+    font-size: 80px;
     transition: color 0.8s, -webkit-text-stroke 0.8s;
+}
+
+#second-text {
+    padding-top: 20px;
+    font-size: 20px;
+    margin-bottom: 100px;
 }
 
 .video-thatplaysin-back {

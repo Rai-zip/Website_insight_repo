@@ -15,7 +15,6 @@ importing fonts that i will use
 }
 
 body{
-    background-color: rgb(226, 217, 204);
     overflow-x: hidden;  /* hides the horizontal scroll bar */
 }
 
@@ -24,6 +23,15 @@ body{
     max-width: 150px;
     max-height: 40px;
 }
+
+.nav-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 10; /* Ensure the navigation container stays above other content */
+}
+
 .nav-bar{
     display: flex;
     justify-content: space-between;
@@ -34,6 +42,7 @@ body{
     position: relative;
     max-width: 100%;
     max-height: 48px;
+    background-color: antiquewhite;
 }
 
 .links{
@@ -71,7 +80,7 @@ body{
     width: 30vh;
     max-width: 300px; /* Adjust the maximum width as needed */
     height: 100vh;
-    z-index: 999; /* Ensure the sidebar appears above other content */
+    z-index: 100; /* Ensure the sidebar appears above other content */
     background-color: aliceblue;
     margin-left: auto;
     display: flex;
@@ -165,4 +174,8 @@ body{
         min-width: 2vh;
     }
 
+}
+
+.no-scroll {
+    overflow: hidden;
 }

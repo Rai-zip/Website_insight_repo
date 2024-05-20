@@ -176,6 +176,30 @@ body{
 
 }
 
+@media screen and (max-width: 400px) {
+
+
+    .menu-btn{
+        display: block;
+    }
+
+    .dissapear{
+        display: none;  
+    }
+
+    .links{
+        justify-content: flex-end;
+        min-width: 2vh;
+    }
+
+    .nav-bar{
+        max-width: 350px; 
+    }
+
+}
+
+
+
 .no-scroll {
     overflow: hidden;
 }

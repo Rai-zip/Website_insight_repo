@@ -38,8 +38,8 @@
     transition: 0.2s smooth;
 }
 
-#booking-btn :hover{
-    border-color: white;
-    background-color: black;
-    color: white;
+.about-section p a:hover{
+    background-color: black; 
+    border-color: aliceblue;
+    color: aliceblue;
 }

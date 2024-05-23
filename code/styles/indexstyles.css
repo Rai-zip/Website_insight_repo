@@ -10,6 +10,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding-bottom: 50px;
 }
 
 .about-section h1{
@@ -28,18 +29,46 @@
     margin-bottom: 30px;
 }
 
-.about-section p a{
-    border-radius: 2px;
+.about-section p a {
+    border-radius: 2px; 
     background-color: white;
     color: black;
     padding: 10px 20px; 
     font-family: baron;
     font-size: small;
-    transition: 0.2s smooth;
+    transition: background-color 0.4s ease, color 0.4s ease, transform 0.4s ease; 
 }
 
 .about-section p a:hover{
     background-color: black; 
     border-color: aliceblue;
     color: aliceblue;
+}
+
+/* picture card and description coding begins*/
+
+.picture-text {
+    background-color: blue;
+    display: flex;
+    flex-wrap: wrap; /* Allow items to wrap onto multiple lines */
+    justify-content: space-between;
+}
+
+.picture, .text {
+    flex: 1 1 45%; /* Flex items take full width */
+}
+
+.picture-first, .text-first {
+    order: 1; /* These items will appear first */
+}
+
+.picture-second, .text-second {
+    order: 2; /* These items will appear second */
+}
+
+.picture-img {
+    width: 100%; /* Image covers the full width of the container */
+    height: 600px; /* Image covers the full height of the container */
+    object-fit: cover; /* Ensures the image covers the container without stretching */
+    display: block; /* Removes bottom margin caused by inline block elements */
 }

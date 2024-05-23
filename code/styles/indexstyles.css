@@ -10,7 +10,6 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding-bottom: 50px;
 }
 
 .about-section h1{
@@ -44,6 +43,41 @@
     border-color: aliceblue;
     color: aliceblue;
 }
+
+/* review card coding*/ 
+
+.reviews{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: black;
+    font-family: baron;
+    padding-top: 80px;
+}
+
+.review-card {
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 20px;
+}
+
+.review-card h1{
+    color: aliceblue;
+    text-align: center;
+    font-size: 1em;
+}
+
+.review-card p{
+    padding-top: 7px;
+    color: aliceblue;
+    font-size: 0.9em;
+    text-align: center;
+}
+
+
+
+
 
 /* picture card and description coding begins*/
 
